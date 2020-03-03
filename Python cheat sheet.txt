@@ -1,0 +1,95 @@
+﻿Python3 Cheat Sheet
+
+
+Console Input/Output:
+    • input()
+        ◦ number/integer = int(input()) 
+        ◦ string = input()
+        ◦ stringList = input().split()
+        ◦ integerList = list(map(int, input().split())
+
+    • print()
+        ◦ print(56)
+        ◦ print(“Hello World”, end=” ”)
+
+
+Data Structures:
+    • Lists
+        ◦ numbersList  = list()
+        ◦ numbersList = [1,2,3,4,5,6]
+        ◦ stringList = [‘abc’, ‘tom’, ‘boy’]
+        ◦ mixedList = [1, 2, 3, ‘abc’, ‘tom’, ‘boy’, [4, 5, 6], {‘x’:5, ‘y’:6}]
+        ◦ listcomprehension = [i for i in range(5)] :- [0,1,2,3,4] 
+        ◦ listcomprehension[0] :- 0
+        ◦ listcomprehension[-1] :- 4
+        ◦ print elements:
+            ▪ for i in stringList:
+print(i)
+            ▪ for i in stringList[-1::-1]:  #reverse
+print(i)	
+        ◦ functions associated with list():-
+            ▪ append()
+            ▪ pop()
+            ▪ remove()
+            ▪ sort()
+            ▪ index()
+            ▪ insert()
+            ▪ reverse()
+            ▪ count()
+            ▪ clear()
+
+    • Set(holds unique elements) 
+        ◦ demoSet = set()
+        ◦ demoset = {1, 2, 3, ’rat’, ’cat’}
+        ◦ iteratint through sets:
+            ▪ for i in demoSet:
+print(i)
+
+        ◦ functions associated with set:
+            ▪ union()
+            ▪ remove()
+            ▪ pop()
+            ▪ issubset()
+            ▪ issuperset()
+            ▪ clear()
+            ▪ add()
+            ▪ difference()
+            ▪ update()
+
+    • Tuples(immutable)
+        ◦ demoTuple = tuple()
+        ◦ demotuple = (1,2,3,3, [1,2,3], {'x':8}, {1,2,3}, (8,7,9))
+        ◦ iterating through tuple:
+            ▪ for i in demoTuple:
+print(i)
+        ◦ functions associated with tuple:
+            ▪ index()
+            ▪ count()
+
+    • Dictionary(key :value pair)
+        ◦ demoDict = dict()
+        ◦ demoDict = {‘x’:5, ‘y’:6, ‘z’:{‘s’:56, ‘t’:9, 8:10}}
+        ◦ demoDict[‘x’] :- 5
+        ◦ demoDict.get(‘x’, 5)  :- 5
+        ◦ functions associated with dictionary:-
+            ▪ clear()
+            ▪ get()
+            ▪ items()
+            ▪ keys()
+            ▪ pop()
+            ▪ values()
+    • Loops
+        ◦ for loop
+            ▪ for count in range(10):
+.....
+.....	
+		else:
+		     ......
+		     ......
+        ◦ while loop
+            ▪ while condition:
+			......
+			......
+		else:
+			......
+			......
